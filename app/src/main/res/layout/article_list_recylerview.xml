@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/marginTopAndBottom"
+        android:id="@+id/news_article_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        tools:text="great" />
+
+    <TextView
+
+        android:id="@+id/news_article_date_publish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/marginTopAndBottom"
+        tools:text="great 2" />
+
+    <Button
+        android:id="@+id/btnSavetoFavt"
+        style="@style/marginTopAndBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="10dp"
+        android:text="Favorit/Save" />
+    <TextView
+        android:background="@android:color/darker_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp" />
+
+</LinearLayout>
